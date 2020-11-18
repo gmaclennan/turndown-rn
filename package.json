@@ -1,7 +1,7 @@
 {
   "name": "turndown-rn",
   "description": "A library that converts HTML to Markdown",
-  "version": "6.1.0",
+  "version": "7.0.1",
   "author": "Dom Christie",
   "main": "lib/turndown.cjs.js",
   "module": "lib/turndown.es.js",

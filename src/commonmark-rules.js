@@ -50,7 +50,7 @@ rules.list = {
 
   replacement: function (content, node) {
     var parent = node.parentNode
-    if (parent.nodeName === 'LI' && parent.lastElementChild === node) {
+    if (parent.nodeName === 'LI') {
       return '\n' + content
     } else {
       return '\n\n' + content + '\n\n'
